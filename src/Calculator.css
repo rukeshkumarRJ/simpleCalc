@@ -1,0 +1,30 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7%;
+    font-size: larger;
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+.calculator-input {
+    text-align: center;
+}
+.calculator-buttons{
+    background-color: rgb(87, 85, 85);
+}
+
+button{
+  padding:10px 30px 10px 30px;
+  border: none;
+  color: aliceblue;
+  background-color: rgb(87, 85, 85);
+}
+input{
+    padding:10px 30px 10px 30px;
+    border: none;
+    background-color: rgb(211, 211, 211);
+    text-align: right;
+    width:279px;
+}  
